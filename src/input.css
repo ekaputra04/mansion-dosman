@@ -35,6 +35,68 @@ body {
   background-repeat: repeat;
 }
 
-/* * {
-  border: 1px solid black;
-} */
+@media (min-width: 1024px) {
+  .lg\:order-13 {
+    order: 13;
+  }
+
+  .lg\:order-14 {
+    order: 14;
+  }
+
+  .lg\:order-15 {
+    order: 15;
+  }
+
+  .lg\:order-16 {
+    order: 16;
+  }
+
+  .lg\:order-17 {
+    order: 17;
+  }
+
+  .lg\:order-18 {
+    order: 18;
+  }
+
+  .lg\:order-19 {
+    order: 19;
+  }
+
+  .lg\:order-20 {
+    order: 20;
+  }
+
+  .lg\:order-21 {
+    order: 21;
+  }
+
+  .lg\:order-22 {
+    order: 22;
+  }
+
+  .lg\:order-23 {
+    order: 23;
+  }
+
+  .lg\:order-24 {
+    order: 24;
+  }
+
+  .lg\:order-25 {
+    order: 25;
+  }
+
+  .lg\:order-26 {
+    order: 26;
+  }
+
+  .lg\:order-27 {
+    order: 27;
+  }
+
+  .lg\:order-28 {
+    order: 28;
+  }
+}
