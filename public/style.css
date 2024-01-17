@@ -705,6 +705,14 @@ video {
   top: -11rem;
 }
 
+.bottom-10{
+  bottom: 2.5rem;
+}
+
+.bottom-24{
+  bottom: 6rem;
+}
+
 .bottom-8{
   bottom: 2rem;
 }
@@ -733,6 +741,10 @@ video {
   right: 2rem;
 }
 
+.right-\[34px\]{
+  right: 34px;
+}
+
 .top-0{
   top: 0px;
 }
@@ -745,24 +757,8 @@ video {
   top: 100%;
 }
 
-.bottom-20{
-  bottom: 5rem;
-}
-
-.right-0{
-  right: 0px;
-}
-
-.bottom-32{
-  bottom: 8rem;
-}
-
-.bottom-24{
-  bottom: 6rem;
-}
-
-.right-\[34px\]{
-  right: 34px;
+.left-1\/2{
+  left: 50%;
 }
 
 .isolate{
@@ -1030,10 +1026,6 @@ video {
   width: 11rem;
 }
 
-.w-52{
-  width: 13rem;
-}
-
 .w-56{
   width: 14rem;
 }
@@ -1108,6 +1100,11 @@ video {
 
 .origin-top-left{
   transform-origin: top left;
+}
+
+.-translate-x-1\/2{
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-rotate-6{
@@ -2271,6 +2268,10 @@ video {
   padding: 0px;
 }
 
+.p-2{
+  padding: 0.5rem;
+}
+
 .p-4{
   padding: 1rem;
 }
@@ -2992,7 +2993,7 @@ body {
 }
 
 #profile {
-  background-image: url("../public/img/resources/1a.png");
+  background-image: url("../public/img/assets/1a.png");
   background-size: contain;
   background-repeat: repeat;
 }
@@ -3120,20 +3121,10 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:scale-95:hover{
-  --tw-scale-x: .95;
-  --tw-scale-y: .95;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .hover\:scale-90:hover{
   --tw-scale-x: .9;
   --tw-scale-y: .9;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:rounded-lg:hover{
-  border-radius: 0.5rem;
 }
 
 .hover\:rounded-2xl:hover{
@@ -3159,6 +3150,11 @@ body {
   font-weight: 700;
 }
 
+.hover\:text-hover:hover{
+  --tw-text-opacity: 1;
+  color: rgb(105 71 54 / var(--tw-text-opacity));
+}
+
 .hover\:text-primary:hover{
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
@@ -3167,11 +3163,6 @@ body {
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-hover:hover{
-  --tw-text-opacity: 1;
-  color: rgb(105 71 54 / var(--tw-text-opacity));
 }
 
 .before\:hover\:text-center:hover::before{
